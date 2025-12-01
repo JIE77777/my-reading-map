@@ -20,7 +20,7 @@
         body, html { margin: 0; padding: 0; height: 100%; width: 100%; font-family: 'Inter', 'Noto Serif SC', sans-serif; background-color: #f0f0f0; overflow: hidden; }
         #map { height: 100%; width: 100%; z-index: 1; background: #cad2d3; }
 
-        /* --- 认证遮罩层 (新增) --- */
+        /* --- 认证遮罩层 --- */
         #authOverlay {
             position: fixed; top: 0; left: 0; width: 100%; height: 100%;
             background: #2c3e50; z-index: 9999;
@@ -189,7 +189,7 @@
     <div id="map"></div>
 
     <!-- FAB 按钮 -->
-    <button class="fab-add" onclick="openModal()" data-html2canvas-ignore="true">
+    <button class="fab-add" onclick="openModal('addBookModal')" data-html2canvas-ignore="true">
         <i class="fas fa-plus"></i>
     </button>
 
